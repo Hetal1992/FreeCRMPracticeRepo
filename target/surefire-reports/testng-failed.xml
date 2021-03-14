@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.freecrm.testcases.HomePageTest">
+        <methods>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.freecrm.testcases.HomePageTest -->
+      <class name="com.freecrm.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="LoginPageTitleTest"/>
+        </methods>
+      </class> <!-- com.freecrm.testcases.LoginPageTest -->
+      <class name="com.freecrm.testcases.ContactsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="ContactsLabelTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.freecrm.testcases.ContactsPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

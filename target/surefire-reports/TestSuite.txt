@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 4, Time elapsed: 31.848 s <<< FAILURE! - in TestSuite
+setUp(com.freecrm.testcases.ContactsPageTest)  Time elapsed: 4.868 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+permission denied
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-4DPQMBAO', ip: '192.168.145.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at com.freecrm.testcases.ContactsPageTest.setUp(ContactsPageTest.java:33)
+
+verifyHomePageTitleTest(com.freecrm.testcases.HomePageTest)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError: HomePage Title does not match with expected Title expected [CRMPRO] but found [CRMPRO - CRM software for customer relationship management, sales, and support.]
+	at com.freecrm.testcases.HomePageTest.verifyHomePageTitleTest(HomePageTest.java:41)
+
+setUp(com.freecrm.testcases.LoginPageTest)  Time elapsed: 6.98 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+permission denied
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-4DPQMBAO', ip: '192.168.145.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at com.freecrm.testcases.LoginPageTest.setUp(LoginPageTest.java:23)
+

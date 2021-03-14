@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="84858" started-at="2021-03-04T16:03:22 EST" finished-at="2021-03-04T16:04:47 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="84858" started-at="2021-03-04T16:03:22 EST" finished-at="2021-03-04T16:04:47 EST">
+      <class name="com.freecrm.testcases.ContactsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.freecrm.testcases.ContactsPageTest@17579e0f]" name="setUp" is-config="true" duration-ms="25795" started-at="2021-03-04T16:03:22 EST" finished-at="2021-03-04T16:03:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ContactsLabelTest()[pri:1, instance:com.freecrm.testcases.ContactsPageTest@17579e0f]" name="ContactsLabelTest" duration-ms="111" started-at="2021-03-04T16:03:48 EST" finished-at="2021-03-04T16:03:48 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactsLabelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freecrm.testcases.ContactsPageTest@17579e0f]" name="tearDown" is-config="true" duration-ms="1594" started-at="2021-03-04T16:03:48 EST" finished-at="2021-03-04T16:03:50 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.freecrm.testcases.ContactsPageTest@17579e0f]" name="setUp" is-config="true" duration-ms="11232" started-at="2021-03-04T16:03:50 EST" finished-at="2021-03-04T16:04:01 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SingleContactSelection()[pri:2, instance:com.freecrm.testcases.ContactsPageTest@17579e0f]" name="SingleContactSelection" duration-ms="3224" started-at="2021-03-04T16:04:01 EST" finished-at="2021-03-04T16:04:04 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingleContactSelection -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freecrm.testcases.ContactsPageTest@17579e0f]" name="tearDown" is-config="true" duration-ms="1882" started-at="2021-03-04T16:04:04 EST" finished-at="2021-03-04T16:04:06 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.freecrm.testcases.ContactsPageTest@17579e0f]" name="setUp" is-config="true" duration-ms="11284" started-at="2021-03-04T16:04:06 EST" finished-at="2021-03-04T16:04:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="multiContactSelection()[pri:3, instance:com.freecrm.testcases.ContactsPageTest@17579e0f]" name="multiContactSelection" duration-ms="3466" started-at="2021-03-04T16:04:17 EST" finished-at="2021-03-04T16:04:21 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiContactSelection -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freecrm.testcases.ContactsPageTest@17579e0f]" name="tearDown" is-config="true" duration-ms="2052" started-at="2021-03-04T16:04:21 EST" finished-at="2021-03-04T16:04:23 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.freecrm.testcases.ContactsPageTest@17579e0f]" name="setUp" is-config="true" duration-ms="12610" started-at="2021-03-04T16:04:23 EST" finished-at="2021-03-04T16:04:36 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCreateNewContact()[pri:4, instance:com.freecrm.testcases.ContactsPageTest@17579e0f]" name="validateCreateNewContact" duration-ms="10285" started-at="2021-03-04T16:04:36 EST" finished-at="2021-03-04T16:04:46 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateNewContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.freecrm.testcases.ContactsPageTest@17579e0f]" name="tearDown" is-config="true" duration-ms="1251" started-at="2021-03-04T16:04:46 EST" finished-at="2021-03-04T16:04:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.freecrm.testcases.ContactsPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
